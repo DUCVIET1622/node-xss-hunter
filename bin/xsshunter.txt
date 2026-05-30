@@ -1,0 +1,6 @@
+mkdir -p bin
+cat > bin/xsshunter << 'EOF'
+#!/usr/bin/env node
+
+require('../index.js')
+EOF

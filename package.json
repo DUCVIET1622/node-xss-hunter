@@ -1,0 +1,16 @@
+{
+  "name": "node-xss-hunter",
+  "version": "1.0.0",
+  "description": "Lightweight XSS vulnerability scanner and blind XSS callback server",
+  "main": "index.js",
+  "bin": {
+    "xsshunter": "./bin/xsshunter"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "ora": "^5.4.1"
+  }
+}
