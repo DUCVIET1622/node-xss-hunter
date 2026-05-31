@@ -14,3 +14,32 @@
 - Tấn công kịch bản chéo trang ( cwe-79 )hoạt động bằng cách thao túng một trang web dễ bị tổn thương để nó trả về mã JavaScript độc hại cho người dùng. Khi mã độc hại được thực thi bên trong trình duyệt của nạn nhân, kẻ tấn công có thể hoàn toàn xâm phạm trải nghiệm tương tác của họ với ứng dụng.
 
 
+<h2>Tính năng</h2>
+
+<ul>
+<li>Hỗ trợ GET và POST</li>
+<li>Payload tích hợp sẵn</li>
+<li>Payload tùy chỉnh</li>
+<li>Đa luồng</li>
+<li>Xuất báo cáo JSON</li>
+<li>Callback listener server</li>
+</ul>
+
+<h2>Cài đặt</h2>
+
+<pre>
+git clone https://github.com/DUCVIET1622/node-xss-hunter.git
+cd node-xss-hunter
+npm install
+</pre>
+
+<h2>Xem trợ giúp</h2>
+
+<pre>
+node index.js --help
+</pre>
+
+</div>
+
+</body>
+</html>
