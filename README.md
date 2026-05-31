@@ -25,6 +25,26 @@
 <li>Callback listener server</li>
 </ul>
 
+
+<h2>Project Structure</h2>
+
+<pre>
+node-xss-hunter/
+├── .gitignore
+├── package.json
+├── index.js                 # File chính
+├── bin/
+│   └── xsshunter            # Shebang script
+├── lib/
+│   ├── payloads.js          # Danh sách payload
+│   ├── scanner.js           # Engine scan
+│   └── server.js            # Callback server
+├── payloads/                # (trống, để dành)
+├── examples/                # (trống, để dành)
+├── node_modules/            # (tự sinh ra khi npm install)
+└── package-lock.json        # (tự sinh ra khi npm install)
+</pre>
+
 <h2>Cài đặt</h2>
 
 <pre>
@@ -43,3 +63,5 @@ node index.js --help
 
 </body>
 </html>
+
+
