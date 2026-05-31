@@ -118,6 +118,8 @@ node index.js payloads --waf
 
 -node index.js --help
 </pre>
+📄 Giấy phép
+Phát hành dưới giấy phép MIT. Xem file LICENSE để biết thêm chi tiết.
 
 <h3>📬 Contact</h3>
 
