@@ -44,6 +44,12 @@ node-xss-hunter/
 ├── node_modules/            # (tự sinh ra khi npm install)
 └── package-lock.json        # (tự sinh ra khi npm install)
 </pre>
+## xem qua cách dùng và demo
+
+
+
+
+
 
 <h2>Cài đặt</h2>
 
