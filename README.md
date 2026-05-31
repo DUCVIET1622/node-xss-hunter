@@ -107,18 +107,32 @@ node index.js payloads --waf
     Path: /
     Cookie: PHPSESSID=abc123; security=low
 
-
-
-
-
-<h2>Xem trợ giúp</h2>
-
-node index.js --help
-
+</pre>
 
 </div>
 
 </body>
 </html>
+<pre>
+### Xem trợ giúp:
+
+-node index.js --help
+</pre>
+
+<h3>📬 Contact</h3>
+
+<p>
+  <a href="mailto:Thaiducviet1212@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail">
+  </a>
+
+  <a href="https://www.instagram.com/ducviet221o/">
+    <img src="https://img.shields.io/badge/Instagram-@ducviet221o-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
+  </a>
+
+  <a href="https://www.tiktok.com/@member1622">
+    <img src="https://img.shields.io/badge/TikTok-@member1622-black?style=for-the-badge&logo=tiktok">
+  </a>
+</p>
 
 
