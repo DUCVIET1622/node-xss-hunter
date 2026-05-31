@@ -13,7 +13,7 @@
 # NODE XSS-HUNTER
 
 - Tấn công kịch bản chéo trang ( cross site scripting / cwe-79 )
-- Tấn công kịch bản chéo trang ( cwe-79 )hoạt động bằng cách thao túng một trang web dễ bị tổn thương để nó trả về mã JavaScript độc hại cho người dùng. Khi mã độc hại được thực thi bên trong trình duyệt của nạn nhân, kẻ tấn công có thể hoàn toàn xâm phạm trải nghiệm tương tác của họ với ứng dụng.
+- Tấn công kịch bản chéo trang ( cwe-79 ) hoạt động bằng cách thao túng một trang web dễ bị tổn thương để nó trả về mã JavaScript độc hại cho người dùng. Khi mã độc hại được thực thi bên trong trình duyệt của nạn nhân, kẻ tấn công có thể hoàn toàn xâm phạm trải nghiệm tương tác của họ với ứng dụng.
 
 
 <h2>Tính năng</h2>
