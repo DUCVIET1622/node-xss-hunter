@@ -1,21 +1,5 @@
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <p align="center">
   <img src="https://img.shields.io/badge/NODE.JS-18.x-blue?style=for-the-badge&logo=node.js" />
   <img src="https://img.shields.io/badge/PLATFORM-Windows%20%7C%20Linux-bluegrey?style=for-the-badge" />
@@ -80,6 +64,36 @@ git clone https://github.com/DUCVIET1622/node-xss-hunter.git
 cd node-xss-hunter
 npm install
 </pre>
+
+<h2>📌 Các lệnh phổ biến </h2>
+
+<pre>
+# 1. Scan cơ bản
+node index.js scan -u "http://target.com/page.php" -p q
+
+# 2. Scan với method POST
+node index.js scan -u "http://target.com/login" -p username -m POST
+
+# 3. Scan nhiều params từ file
+  
+# Tạo file params.txt trước, mỗi dòng là 1 param
+  
+echo -e "q\nsearch\nid\nname\nemail" &gt; params.txt
+  
+node index.js scan -u "http://target.com/page.php" -w params.txt
+
+# 4. Chạy server blind XSS
+node index.js server
+
+# 5. Scan + WAF bypass
+node index.js scan -u "http://target.com/page.php" -p q --waf-bypass
+
+# 6. Xem danh sách payloads
+node index.js payloads
+node index.js payloads --waf
+</pre>
+
+
 
 <h2>Xem trợ giúp</h2>
 
